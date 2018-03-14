@@ -1,0 +1,24 @@
+{
+  "name": "elmapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot --port 3000 --colors",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "elm-webpack-loader": "git://github.com/elm-community/elm-webpack-loader.git#7d1c6d939ea5b8b8a8f2aa2eb497e7fba49e6c71",
+    "webpack": "^4.1.1",
+    "webpack-dev-server": "^3.1.1"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.10",
+    "file-loader": "^1.1.11",
+    "style-loader": "^0.20.3",
+    "webpack-cli": "^2.0.11"
+  }
+}

@@ -1,0 +1,12 @@
+.test {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(12deg, rgb(0, 221, 166), rgb(190, 208, 255));
+  height: 40vh;
+}
+
+.test p {
+  color: rgb(255, 255, 255);
+  font-size: 5rem;
+}
